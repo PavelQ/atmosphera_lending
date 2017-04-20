@@ -1,0 +1,39 @@
+footer {
+    background-color: #262F36;
+
+    color: rgba(255, 255, 255, .7) !important;
+    /*padding: 100px 1rem;*/
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #86989d;
+    line-height: 23px;
+}
+
+/*.block-1 {*/
+    /*height: 115vh;*/
+    /*background: #464646 url("../image/sistema_ustroystvo_steklo_led_kub_metall_19987_1600x900.jpg") no-repeat;*/
+    /*background-size: cover;*/
+    /*position: relative;*/
+    /*min-height: 450px;*/
+/*}*/
+
+/*.block-1 img {*/
+    /*width: 100%;*/
+    /*bottom: 0;*/
+    /*position: absolute;*/
+/*}*/
+
+h6 {
+    color: #bec8ce;
+
+}
+
+p {
+    color: #6c6f73;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
