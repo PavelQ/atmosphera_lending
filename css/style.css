@@ -1,29 +1,271 @@
-footer {
-    background-color: #262F36;
 
-    color: rgba(255, 255, 255, .7) !important;
-    /*padding: 100px 1rem;*/
+.block-1 {
+
+    height: 50vh;
+    background: #464646 url("../image/sistema_ustroystvo_steklo_led_kub_metall_19987_1600x900.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 450px;
+}
+
+
+.block-1 img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.block-6-1{
+    background-color: #ecf0f3;
+}
+.block-6{
+    background-color: white;
+}
+.block-7{
+    background-color: #ecf0f3;
+}
+.block-11{
+    background-color: #57bddb;
+
+}
+
+.block-13{
+    background-color: #ecf0f3;
+}
+
+hr{
+    color: #c2cdd0;
+}
+h2{
+
+    color: #334852;
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 35px;
+
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h4{
+    color: #666;
+    font-family: open sans;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
 }
 body {
     font-family: 'Open Sans', sans-serif;
     color: #86989d;
     line-height: 23px;
 }
+.h2{
 
-/*.block-1 {*/
-    /*height: 115vh;*/
-    /*background: #464646 url("../image/sistema_ustroystvo_steklo_led_kub_metall_19987_1600x900.jpg") no-repeat;*/
-    /*background-size: cover;*/
-    /*position: relative;*/
-    /*min-height: 450px;*/
-/*}*/
+    color: #334852;
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
 
-/*.block-1 img {*/
-    /*width: 100%;*/
-    /*bottom: 0;*/
-    /*position: absolute;*/
-/*}*/
+table p {
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.ik {
+    font-size: 14px;
+}
 
+span .block-8 {
+
+    font-size: 15px;
+    font-weight: 300;
+    font-family: open sans;
+    vertical-align: middle;
+}
+
+.cost {
+    color: #666;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+div .button {
+
+    display: inline-block;
+    color: #57bddb;
+    text-decoration: none;
+    user-select: none;
+    outline: none !important;;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+div a.button:hover { color: #89d1e6; }
+a.button:active { background: white; }
+
+div .button2 {
+
+    display: inline-block;
+    background-color: #57bddb;
+    text-decoration: none;
+    user-select: none;
+    outline: none !important;;
+    border: 2px solid #57bddb;
+    border-radius: 1px;
+    transition: 0.2s;
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    cursor: pointer;
+    margin-right: 15px;
+    color: white;
+
+}
+
+div a.button2:hover {
+    background-color: #89d1e6;
+    border-color: #89d1e6;
+    color: white;
+
+}
+a.button2:active { background: white; }
+
+div .button3 {
+
+    display: inline-block;
+    background-color: #57bddb;
+    text-decoration: none;
+    user-select: none;
+    outline: none !important;;
+    border: 2px solid white;
+    border-radius: 1px;
+    transition: 0.2s;
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    cursor: pointer;
+    margin-right: 15px;
+    color: white;
+
+}
+
+div a.button3:hover {
+    border-color: #cdebf4;
+    color: #cdebf4;
+
+}
+div a.button2:active { background: white; }
+
+.img2{
+    display: block;
+    height: 100%;
+    position: absolute;width: 100%;
+    z-index: 99;
+}
+
+.ic{
+    display: inline-block;
+    background: none repeat scroll 0 0 #57bddb;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 35px;
+    height: 75px;
+    padding: 20px;
+    width: 75px;
+}
+
+
+
+.img-6-1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img-6-1 li {
+    float: left;
+    width: 25%;
+}
+
+.img-6-1 li img {
+    height: auto;
+    width: 100%;
+}
+
+/*затемнение*/
+.img-6-1 li a{
+    position:relative;
+    display:block;
+}
+.img-6-1 li a:before {
+    background:none repeat scroll 0 0 #333;
+    content:"";
+    height:100%;
+    left:0;
+    position:absolute;
+    top:0;
+    width:100%;
+    opacity:.6;
+}
+
+.img-6-1 li.active a:before , .clients-list li:hover a:before{
+    display:none;
+}
+.container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+strong{
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 35px;
+    text-transform: uppercase;
+
+}
+.color-b{
+    font-family: open sans;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 35px;
+
+    text-transform: uppercase;
+    color: #334852 !important;
+}
+.color-menu {
+    color: #86989d;
+}
+nav {
+    border: 0;
+}
+
+.navbar-default {
+    background-color: white;
+    border: none;
+}
+.menue{
+    background-color: white;
+}
 h6 {
     color: #bec8ce;
 
@@ -36,4 +278,21 @@ p {
 img {
     width: auto;
     height: auto;
+}
+
+div .button {
+
+    display: inline-block;
+    color: #57bddb;
+    text-decoration: none;
+    user-select: none;
+    outline: none !important;;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    cursor: pointer;
+    margin-right: 15px;
 }
